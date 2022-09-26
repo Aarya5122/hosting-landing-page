@@ -1,0 +1,174 @@
+@media only screen and (max-width: 1024px)  {
+    .flex{
+        flex-direction: column;
+    }
+
+    .flex-gap-md{
+        gap: 2vh;
+    }
+
+    .flex-rev{
+        flex-direction: column-reverse;
+    }
+
+    .image-section.flex-align-start{
+        align-items: center;
+    }
+
+    .image-section{
+        z-index: -1;
+    }
+
+    .list.flex, .button-group.flex{
+        display: none;
+    }
+
+    .section-container{
+        margin: 50px 0px;
+    }
+
+    .text-section{
+        width: 80vw;
+        height: 55vh;
+    }
+
+    .image-section{
+        width: 80vw;
+        margin: 0 auto;
+        height: 55vh;
+
+    }
+
+    .section-image{
+        height: 50vh;
+    }
+
+    .heading{
+        font-size: 40px;
+    }
+    
+    .text{
+        font-size: 16px;
+    }
+
+    .image-section.mr-4,.image-section.ml-4{
+        margin: 0px;
+    }
+
+    .services-heading{
+        width: 80vw;
+    }
+
+    .services-text{
+        width: 75vw;
+    }
+
+    .card{
+        width: 60vw;
+        height: 36vh;
+        margin-top: 10vh;
+    }
+
+    .plan-card{
+        height: 90vh;
+        width: 55vw;
+        border-radius: 8px;
+        background: #ffffff;
+    }
+
+    .plan-card-header{
+        width: 55vw;
+    }
+
+    .benifits{
+        height: 50vh;
+        width: 30vw;
+    }
+
+    .pricing{
+        height: 24vh;
+        width: 30vw;
+        padding-bottom: 2vw;
+    }
+
+    .testimonal-header{
+        width: 80vw;
+    }
+
+    .testimonal-card{
+        width: 70vw;
+        height: 45vh;
+    }
+
+    .user.flex{
+        flex-direction: row;
+    }
+
+    .avatar{
+        width: 10vw;
+    }
+
+    .registration{
+        margin-bottom: 8vh;
+    }
+
+    .registration-content{
+        /* height: 30v  h; */
+        width: 80vw;
+    }
+    
+    .registration-heading{
+        font-size: 30px;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    footer.flex{
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-heading{
+        font-size: 20px;
+    }
+
+    .footer-text, .footer-list-item{
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .about{
+        width: 80vw;
+        margin-left: 40px;
+    }
+
+    .footer-list-section{
+        margin: 5vh 0vw;
+        width: 30vw;
+        margin-left: 40px;
+    }
+
+    .social.flex{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        gap: 2vw;
+    }
+    
+}
+
+@media only screen and (max-width: 620px) {
+    .testimonal-card{
+        width: 80vw;
+    }
+
+    .plan-card,
+    .plan-card-header{
+        width: 60vw;
+    }
+}

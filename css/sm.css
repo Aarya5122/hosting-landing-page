@@ -1,0 +1,46 @@
+@media only screen and (max-width: 481px){
+    .text-section{
+        width: 90vw;
+        height: 70vh;
+    }
+    .image-section{
+        width: 90vw;
+        height: 40vh;
+    }
+    .section-image{
+        width: 95vw;
+    }
+    .plan-card,.plan-card-header{
+        width: 90vw;
+    }
+    .benifits{
+        height: 40vh;
+        width: 80vw;
+    }
+    .pricing{
+        width: 90vw;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .testimonal-card{
+        height: 60vh;
+        width: 90vw;
+    }
+    .avatar{
+        width: 24vw;
+    }
+    .registration{
+        height: 65vh;
+    }
+    .social.flex{
+        flex-wrap: wrap;
+    }
+    .about{
+        margin-left: 8px;
+    }
+    .footer-list-section{
+        margin-left: 12px;
+        width: 40vw;
+    }
+}
